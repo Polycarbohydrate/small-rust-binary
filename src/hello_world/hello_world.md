@@ -7,6 +7,7 @@ There is only one space in this line of code separating the function, `fn`, call
 When running the command ```cargo build``` the file compiles to a size of `~141` kilobytes (`144384` bytes).
 
 ![Screenshot 2025-04-15 175742](https://github.com/user-attachments/assets/ba4fd767-0f0c-4784-be9a-ec3e41226e89)
+
 *Figure 1: `small-rust-binary\target\debug\small-rust-binary.exe` built by `cargo build`*
 
 
