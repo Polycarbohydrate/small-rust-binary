@@ -8,19 +8,13 @@ fn main(){println!("Hello, world!");}
 There is only one space in this line of code separating the function, `fn`, call and the name of the function, `main`. Everything is kept to one line and no unnecessary spaces are used to minimize the binary size just from the code.
 
 ## Table of Contents
-[Building with defaults](https://polycarbohydrate.github.io/small-rust-binary/src/hello_world/hello_world#building-with-defaults)
-
-[Building in release mode](https://polycarbohydrate.github.io/small-rust-binary/src/hello_world/hello_world#building-in-release-mode)
-
-[Building with strip enabled](https://polycarbohydrate.github.io/small-rust-binary/src/hello_world/hello_world#building-with-strip-enabled)
-
-[Building with opt-level 's'](https://polycarbohydrate.github.io/small-rust-binary/src/hello_world/hello_world#building-with-opt-level-s)
-
-[Building with opt-level ‘z’](https://polycarbohydrate.github.io/small-rust-binary/src/hello_world/hello_world#building-with-opt-level-z)
-
-[Building with link time optimization enabled](https://polycarbohydrate.github.io/small-rust-binary/src/hello_world/hello_world#building-with-link-time-optimization-enabled)
-
-[Building with codegen units set to ‘1’](https://polycarbohydrate.github.io/small-rust-binary/src/hello_world/hello_world#building-with-codegen-units-set-to-1)
+- [Building with defaults](https://polycarbohydrate.github.io/small-rust-binary/src/hello_world/hello_world#building-with-defaults)
+- [Building in release mode](https://polycarbohydrate.github.io/small-rust-binary/src/hello_world/hello_world#building-in-release-mode)
+- [Building with strip enabled](https://polycarbohydrate.github.io/small-rust-binary/src/hello_world/hello_world#building-with-strip-enabled)
+- [Building with opt-level 's'](https://polycarbohydrate.github.io/small-rust-binary/src/hello_world/hello_world#building-with-opt-level-s)
+- [Building with opt-level ‘z’](https://polycarbohydrate.github.io/small-rust-binary/src/hello_world/hello_world#building-with-opt-level-z)
+- [Building with link time optimization enabled](https://polycarbohydrate.github.io/small-rust-binary/src/hello_world/hello_world#building-with-link-time-optimization-enabled)
+- [Building with codegen units set to ‘1’](https://polycarbohydrate.github.io/small-rust-binary/src/hello_world/hello_world#building-with-codegen-units-set-to-1)
 
 ### Building with defaults
 When running the command `cargo build` the file compiles to a size of `~141` kilobytes (`144,384` bytes).
