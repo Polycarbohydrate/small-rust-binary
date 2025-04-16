@@ -48,6 +48,14 @@ Reduction of `17,408` bytes from the default build *(Figure 1)*.
 
 Reduction of `13,824` bytes from the initial release build *(Figure 2)*.
 
+### Building with codegen units set to '1'
+When running the command `cargo build --release` and the having the Cargo.toml file include:
+
+```toml
+[profile.release]
+codegen-units = 1
+```
+
 #### Variables
 Rustc version: `1.86.0`
 
