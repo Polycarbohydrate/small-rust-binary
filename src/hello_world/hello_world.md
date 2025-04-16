@@ -1,6 +1,10 @@
 # hello_world.rs
 In the [hello_world.rs](https://github.com/Polycarbohydrate/small-rust-binary/blob/main/src/hello_world/hello_world.rs) file, there is code to print `Hello World` to `stdout`. We use the [`println!`](https://doc.rust-lang.org/std/macro.println.html) macro to do this.
 
+```rust
+fn main(){println!("Hello, world!");}
+```
+
 There is only one space in this line of code separating the function, `fn`, call and the name of the function, `main`. Everything is kept to one line and no unnecessary spaces are used to minimize the binary size just from the code.
 
 ### Building with defaults
