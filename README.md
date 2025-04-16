@@ -4,4 +4,5 @@ This project is a small experiment on how small binaries can generate in Rust wh
 #### Variables
 - Operating System: Windows 11
 - System Architecture: x64
+
 *More specific variables that vary during testing are included in the individual subdirectories of the different tests' markdown files.*
