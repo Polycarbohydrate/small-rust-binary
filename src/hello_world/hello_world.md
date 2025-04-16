@@ -33,7 +33,7 @@ When running the command `cargo build --release` the file compiles to a size of 
 Reduction of `3,584` bytes from default build.
 
 ### Building with strip enabled
-Since this testing is done on Windows, the strip command does nothing to the file size. The file size is the same as in Figure 2. Neverless, the option is still avaiable in the associated cargo.toml file.
+Since this testing is done on Windows, the strip command does nothing to the file size. The file size is the same as in Figure 2. Neverless, the option is still available in the associated cargo.toml file.
 
 ### Building with opt-level 's'
 Same exact size as building in *Figure 2*. Option is still included in the Cargo.toml file.
