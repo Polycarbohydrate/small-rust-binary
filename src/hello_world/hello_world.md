@@ -23,6 +23,30 @@ When running the command `cargo build --release` the file compiles to a size of 
 
 Reduction of `3,584` bytes from default build.
 
+### Building with strip enabled
+Since this testing is done on Windows, the strip command does nothing to the file size. The file size is the same as in Figure 2. Neverless, the option is still avaiable in the associated cargo.toml file.
+
+### Building with opt-level 's'
+Same exact size as building in *Figure 2*. Option is still included in the Cargo.toml file.
+
+### Building with opt-level 'z'
+Same exact size as building in *Figure 2*. Option is still included in the Cargo.toml file.
+
+### Building with link time optimization enabled
+When running the command `cargo build --release` and the having the Cargo.toml file include:
+
+```toml
+[profile.release]
+lto = true
+```
+
+the build size drops dramatically to `124` kilobytes (`126,976` bytes).
+
+![Screenshot 2025-04-16 164916](https://github.com/user-attachments/assets/676e895b-5d31-46fc-94df-14496c138744)
+
+Reduction of `17,408` bytes from the default build *(Figure 1)*.
+Reduction of `13,824` bytes from the initial release build *(Figure 2)*.
+
 #### Variables
 Rustc version: `1.86.0`
 
